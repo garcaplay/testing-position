@@ -1,0 +1,57 @@
+body {
+  background-color: peachpuff;
+}
+
+.boxes-container {
+  background-color: white;
+  border: 2px solid tomato;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  margin-top: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  color: white;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.box-1 {
+  background-color: black;
+}
+
+.box-2 {
+  background-color: grey;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+}
+
+.box-3 {
+  background-color: brown;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+
+/*# sourceMappingURL=main.css.map */
