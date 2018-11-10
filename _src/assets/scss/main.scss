@@ -9,6 +9,7 @@ body {
     width: 600px;
     margin: auto;
     margin-top: 10vh;
+    position: relative;
 }
 
 .box{
@@ -21,12 +22,25 @@ body {
 
 .box-1{
     background-color: black; 
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
 }
 
 .box-2{
-    background-color: grey;  
+    background-color: grey; 
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    transform: scaleX(3) scaleY(2);
+    
 }
 
 .box-3{
     background-color: brown;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
 }
